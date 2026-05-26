@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- баннер -->
-<img src="ТУТ_ССЫЛКА_НА_ТВОЙ_БАННЕР" alt="cyberpunk banner" width="100%" />
+<img src="banner.png" alt="cyberpunk banner" height="300" width="100%" />
 
 <br/>
 
@@ -9,7 +9,7 @@
 
   「Somewhere between firewalls, anime and gaming addiction.」
 
-<img src="АВАТАР" alt="avatar" width="128" style="border-radius: 50%;"/>
+<img src="ava.png" alt="avatar" width="200"/>
 
 </div>
 
