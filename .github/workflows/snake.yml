@@ -2,32 +2,37 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # раз в день
-  workflow_dispatch:       # можно запускать руками из Actions
+    - cron: "0 0 * * *"   # каждый день в 00:00 UTC
+  workflow_dispatch:       # ручной запуск
   push:
     branches:
       - main
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate Snake
+      - name: Generate Snake SVG
         uses: Platane/snk@v3
         with:
           github_user_name: lKriol
           outputs: |
             dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Push Snake to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
+      - name: Commit and push snake
+        run: |
+          mkdir -p .github/snake
+          cp dist/github-contribution-grid-snake.svg .github/snake/github-contribution-grid-snake.svg
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add .github/snake/github-contribution-grid-snake.svg
+          git commit -m "chore: update snake" || echo "no changes to commit"
+          git push origin HEAD:output
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
