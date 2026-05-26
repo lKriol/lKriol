@@ -132,16 +132,15 @@ $ side_quest list
 
 ### 🧪 Incoming repos
 
-- 🤖 Discord‑боты (утилиты, фановая автоматизация, штуки под ИБ)
-- 🧰 маленькие **security / infra tools** на Python/Bash
-- 🕹 материалы по модовым **Minecraft** серверам и Palworld
-- 📝 **security notes / CTF writeups / конспекты** по ИБ и сетям
-
+- 🤖 Discord‑bot (Utils, Fun)
+- 🧰 Small **security / infra tools** Python/Bash
+- 🕹 Materials from some games?
+- 📝 **security notes / CTF writeups / notes** about IB and network
 ---
 
 ### 💬 Ping me
 
 - GitHub issues / discussions  
-- Остальное (Discord / почта) добавлю позже, когда всё остальное не будет выглядеть как WIP
+- Discord: r.i.n.a.t
 
 > If this profile looks “too much” – good. That means it’s working.
