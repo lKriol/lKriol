@@ -1,17 +1,15 @@
-<!-- Центровка всего хедера -->
 <div align="center">
 
-<!-- Аниме-киберпанк баннер (подставь свою картинку/гиф) -->
+<!-- баннер -->
 <img src="ТУТ_ССЫЛКА_НА_ТВОЙ_БАННЕР" alt="cyberpunk banner" width="100%" />
 
 <br/>
 
-<!-- Ник + маленький лор -->
 <h1>⚡ lKriol // ゾーンに入る ⚡</h1>
 
   「Somewhere between firewalls, anime and gaming addiction.」
 
-<img src="ТУТ_ССЫЛКА_НА_ТВОЙ_АВАТАР" alt="avatar" width="128" style="border-radius: 50%;"/>
+<img src="АВАТАР" alt="avatar" width="128" style="border-radius: 50%;"/>
 
 </div>
 
@@ -39,14 +37,12 @@ $ status
 
 <div align="center">
 
-<!-- «официальные» -->
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
 <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
 
-<!-- более фановое -->
 <img src="https://img.shields.io/badge/Networking-NAT%2C_VPN%2C_AD-0052CC?style=for-the-badge" />
 <img src="https://img.shields.io/badge/InfoSec-OWASP_Top_10-ff5555?style=for-the-badge" />
 <img src="https://img.shields.io/badge/perplexity-000000?style=for-the-badge&logo=perplexity&logoColor=088F8F" />
@@ -101,8 +97,6 @@ $ side_quest list
 
 <div align="center">
 
-<!-- если ломается — комментируй по одной строке -->
-
 <!--<img src="https://github-readme-stats.vercel.app/api?username=lKriol&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />-->
 
 <img src="https://github-readme-streak-stats-eight.vercel.app?user=lKriol&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
@@ -115,18 +109,11 @@ $ side_quest list
 
 ---
 
-### 🐍 Contribution snake (future DLC)
+### 🐍 Snake DLC
 
-> Здесь появится анимированная змейка, когда я настрою GitHub Actions.
-
-```text
-[ WIP ] cyber-snake.exe
-  status: downloading...
-```
-
-<!-- Позже заменишь на:
-![Snake animation](https://raw.githubusercontent.com/lKriol/lKriol/output/github-contribution-grid-snake.svg)
--->
+<div align="center">
+  <img alt="GitHub Snake" src="https://raw.githubusercontent.com/lKriol/lKriol/main/.github/snake/github-contribution-grid-snake.svg" />
+</div>
 
 ---
 
