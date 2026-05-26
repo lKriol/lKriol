@@ -2,11 +2,8 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # каждый день в 00:00 UTC
-  workflow_dispatch:       # ручной запуск
-  push:
-    branches:
-      - main
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
   generate:
@@ -21,18 +18,15 @@ jobs:
         with:
           github_user_name: lKriol
           outputs: |
-            dist/github-contribution-grid-snake.svg
+            .github/snake/github-contribution-grid-snake.svg
 
       - name: Commit and push snake
         run: |
           mkdir -p .github/snake
-          cp dist/github-contribution-grid-snake.svg .github/snake/github-contribution-grid-snake.svg
-
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git add .github/snake/github-contribution-grid-snake.svg
           git commit -m "chore: update snake" || echo "no changes to commit"
-          git push origin HEAD:output
+          git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
