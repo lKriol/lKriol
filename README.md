@@ -9,7 +9,7 @@
 <!-- Ник + маленький лор -->
 <h1>⚡ lKriol // ゾーンに入る ⚡</h1>
 
-> 「Somewhere between firewalls, anime and modded Minecraft.」
+  「Somewhere between firewalls, anime and modded Minecraft.」
 
 <img src="ТУТ_ССЫЛКА_НА_ТВОЙ_АВАТАР" alt="avatar" width="128" style="border-radius: 50%;"/>
 
