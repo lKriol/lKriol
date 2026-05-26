@@ -1,103 +1,147 @@
-# Hi there, I'm lKriol 👋
+<!-- Центровка всего хедера -->
+<div align="center">
 
-> Junior Information Security enthusiast • Gamer • Tech tinkerer  
+<!-- Аниме-киберпанк баннер (подставь свою картинку/гиф) -->
+<img src="ТУТ_ССЫЛКА_НА_ТВОЙ_БАННЕР" alt="cyberpunk banner" width="100%" />
 
----
+<br/>
 
-## 🇬🇧 About me
+<!-- Ник + маленький лор -->
+<h1>⚡ lKriol // ゾーンに入る ⚡</h1>
 
-- 🛡 Junior **Information Security / Cybersecurity** specialist in progress  
-- 🔍 Interested in **AppSec, OWASP Top 10, DLP, SIEM, Kaspersky Security Center, Secret Net**  
-- 🌐 Comfortable with **networking basics**: NAT, VPN, firewalling, Active Directory  
-- 🧪 I like breaking things safely and understanding how they work
+> 「Somewhere between firewalls, anime and modded Minecraft.」
 
----
+<img src="ТУТ_ССЫЛКА_НА_ТВОЙ_АВАТАР" alt="avatar" width="128" style="border-radius: 50%;"/>
 
-## 🇷🇺 О себе
-
-- 🛡 Развиваюсь как **младший специалист по информационной безопасности**  
-- 🔍 Интересуюсь **AppSec, OWASP Top 10, DLP, SIEM, Kaspersky Security Center, Secret Net**  
-- 🌐 Работаю с базовой сетевой инфраструктурой: **NAT, VPN, файрволы, Active Directory**  
-- 🧪 Люблю разбираться, как всё устроено, безопасно ломать и чинить
+</div>
 
 ---
 
-## 🛠 Tech & tools / Технологии и инструменты
+### 🧪 System boot log
 
-- **Security & infrastructure / ИБ и инфраструктура**  
-  OWASP Top 10, базовая работа с SIEM/DLP, Kaspersky Security Center, Secret Net  
+```bash
+$ neofetch
+  user     : lKriol
+  role     : junior infosec enjoyer
+  os       : Win / Linux hybrid
+  location : Moscow, RU
+  hobbies  : gaming, breaking, fixing, repeat
 
-- **Networking / Сети**  
-  NAT, VPN, базовая настройка маршрутизации и правил доступа, Active Directory basics  
-
-- **Scripting & tools / Скрипты и утилиты**  
-  Python (утилиты, автоматизация), Bash, Git  
-
-- **OS**  
-  Windows, Linux (пользовательский и базовый админский уровень)
-
----
-
-## 🎮 Hobbies & projects / Хобби и проекты
-
-- 🕹 **Gaming:** modded Minecraft, Palworld, anime-style games  
-- 🌐 Admin stuff: настройка и сопровождение **модовых Minecraft-серверов**  
-- 🤖 Планирую выложить:
-  - Discord-ботов и небольшие утилиты
-  - Скрипты для анализа логов и учебных задач по ИБ
-  - Шпаргалки по ИБ и сетям (Markdown)
+$ status
+  learning : AppSec, OWASP Top 10, SIEM, DLP
+  playing  : modded Minecraft, Palworld, anime games
+  mood     : caffeinated && curious
+```
 
 ---
 
-## 📚 Learning now / Сейчас изучаю
+### 💾 Loadout / スタック
 
-- Deeper **Application Security** и практику OWASP Top 10  
-- Логирование и анализ событий в **SIEM**  
-- Hardening Windows / Linux окружений  
-- Автоматизацию повседневных задач с помощью Python и скриптов
+<div align="center">
 
----
+<!-- «официальные» -->
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" />
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+<img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
 
-## 📌 Upcoming repositories / Что появится в репозитории
+<!-- более фановое -->
+<img src="https://img.shields.io/badge/Networking-NAT%2C_VPN%2C_AD-0052CC?style=for-the-badge" />
+<img src="https://img.shields.io/badge/InfoSec-OWASP_Top_10-ff5555?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Minecraft-modded_servers-5C973B?style=for-the-badge&logo=minecraft&logoColor=white" />
+<img src="https://img.shields.io/badge/Anime-enjoyer-ff66cc?style=for-the-badge" />
 
-- 🧪 CTF write-ups и лабораторные по ИБ  
-- 🤖 Discord-боты и вспомогательные утилиты  
-- 📝 Шпаргалки по ИБ, сетям и инфраструктуре  
-- 🕹 Материалы по настройке модовых Minecraft-серверов
-
----
-
-## 📊 GitHub stats
-
-<!--![GitHub Stats](https://github-readme-stats.vercel.app/api?username=lKriol&show_icons=true&theme=tokyonight)-->
+</div>
 
 ---
 
-## 🧩 Languages & tools badges
+### 🔐 What I break (and fix)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+- веб‑приложения с точки зрения **OWASP Top 10**
+- конфиги: NAT, VPN, базовые правила фаерволов, AD
+- Windows / Linux окружения (учебные стенды, не прод 😇)
+- свои же нервы, когда что‑то не заводится с первого раза
+
+```bash
+$ todo
+  [x] создать GitHub профиль
+  [ ] выложить нормальные проекты
+  [ ] не забыть поспать
+```
 
 ---
 
-## 📫 Contact / Контакты
+### 📡 Currently syncing…
 
-- 🔧 Пока что лучшее место связаться — через GitHub (issues / discussions)  
-- Позже здесь появятся дополнительные ссылки
+- 🧠 **Application Security** basics, threat modeling, secure coding
+- 📜 логирование и разбор событий в **SIEM**
+- 🧱 AD, групповые политики, VPN, сетевые штуки
+- 🕹 поддержка и тюнинг модовых **Minecraft-серверов** и Discord‑сообществ
 
-<!--
-**lKriol/lKriol** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+### 🎮 Side quests
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+- modded Minecraft (сборки, сервера, автоматизация)
+- Palworld breeding & базы
+- аниме, манга, всякое душевное
+- мелкие скрипты / утилиты для автоматизации и ИБ
+
+```bash
+$ side_quest list
+  -> write small tools for logs
+  -> build discord bots
+  -> document weird configs so future me says "thanks"
+```
+
+---
+
+### 📊 Overkill stats section
+
+<div align="center">
+
+<!-- если ломается — комментируй по одной строке -->
+
+<img src="https://github-readme-stats.vercel.app/api?username=lKriol&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+
+<img src="https://github-readme-streak-stats-eight.vercel.app?user=lKriol&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lKriol&layout=compact&theme=tokyonight&hide_border=true" alt="Top Langs" />
+
+<img src="https://komarev.com/ghpvc/?username=lKriol&style=flat-square&color=ff69b4" alt="Profile views" />
+
+</div>
+
+---
+
+### 🐍 Contribution snake (future DLC)
+
+> Здесь появится анимированная змейка, когда я настрою GitHub Actions.
+
+```text
+[ WIP ] cyber-snake.exe
+  status: downloading...
+```
+
+<!-- Позже заменишь на:
+![Snake animation](https://raw.githubusercontent.com/lKriol/lKriol/output/github-contribution-grid-snake.svg)
 -->
+
+---
+
+### 🧪 Incoming repos
+
+- 🤖 Discord‑боты (утилиты, фановая автоматизация, штуки под ИБ)
+- 🧰 маленькие **security / infra tools** на Python/Bash
+- 🕹 материалы по модовым **Minecraft** серверам и Palworld
+- 📝 **security notes / CTF writeups / конспекты** по ИБ и сетям
+
+---
+
+### 💬 Ping me
+
+- GitHub issues / discussions  
+- Остальное (Discord / почта) добавлю позже, когда всё остальное не будет выглядеть как WIP
+
+> If this profile looks “too much” – good. That means it’s working.
